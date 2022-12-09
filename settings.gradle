@@ -1,0 +1,4 @@
+rootProject.name = 'springBootExample'
+include 'dao'
+include 'api'
+include 'services'

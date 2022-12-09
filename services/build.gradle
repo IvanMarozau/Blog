@@ -1,0 +1,42 @@
+plugins {
+    id 'java'
+    id 'org.springframework.boot'
+    id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+
+}
+apply plugin: 'groovy'
+group 'cz.mendelu'
+version '0.0.1-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-configuration-processor:2.6.6'
+    implementation 'cn.featherfly.configuration:configuration-api:1.2.7'
+    implementation 'org.springframework:spring-context:5.3.18'
+    implementation 'org.springframework.boot:spring-boot-starter-web:2.6.6'
+    implementation 'io.springfox:springfox-swagger2:3.0.0'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.2'
+    implementation project(':dao')
+    compileOnly 'org.projectlombok:lombok:1.18.22'
+    annotationProcessor 'org.projectlombok:lombok:1.18.22'
+   implementation 'org.springframework.data:spring-data-jpa:2.6.3'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test:2.6.6'
+    testImplementation(
+            'junit:junit:4.12',
+            'org.codehaus.groovy:groovy-all:2.4.11',
+            'org.spockframework:spock-core:1.1-groovy-2.4'
+    )
+}
+
+test {
+    useJUnit{
+    }
+    testLogging {
+        showStandardStreams = true
+    }
+}
+bootJar { enabled = false}

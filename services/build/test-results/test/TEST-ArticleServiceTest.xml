@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ArticleServiceTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2022-07-17T15:18:18" hostname="MacBook-Air-Ivan.local" time="0.404">
+  <properties/>
+  <testcase name="FindAll" classname="ArticleServiceTest" time="0.367"/>
+  <testcase name="FindByIdArticle" classname="ArticleServiceTest" time="0.014"/>
+  <testcase name="DeleteByIdArticle" classname="ArticleServiceTest" time="0.007"/>
+  <testcase name="SaveArticle" classname="ArticleServiceTest" time="0.014"/>
+  <testcase name="entityToDto" classname="ArticleServiceTest" time="0.0"/>
+  <testcase name="dtoToEntity" classname="ArticleServiceTest" time="0.001"/>
+  <testcase name="articleRepository" classname="ArticleServiceTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

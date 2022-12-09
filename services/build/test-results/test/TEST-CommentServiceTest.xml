@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CommentServiceTest" tests="6" skipped="0" failures="1" errors="0" timestamp="2022-07-17T15:18:18" hostname="MacBook-Air-Ivan.local" time="0.042">
+  <properties/>
+  <testcase name="FindAll" classname="CommentServiceTest" time="0.022"/>
+  <testcase name="DeleteCommentById" classname="CommentServiceTest" time="0.002"/>
+  <testcase name="SaveComment" classname="CommentServiceTest" time="0.015">
+    <failure message="java.lang.NullPointerException: Cannot invoke &quot;java.util.List.stream()&quot; because the return value of &quot;cz.mendelu.springBootExample.repositories.CommentRepository.findAll()&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;java.util.List.stream()&quot; because the return value of &quot;cz.mendelu.springBootExample.repositories.CommentRepository.findAll()&quot; is null
+	at cz.mendelu.springBootExample.services.CommentService.findAll(CommentService.java:28)
+	at cz.mendelu.springBootExample.services.CommentService.save(CommentService.java:46)
+	at CommentServiceTest.SaveComment(CommentServiceTest.groovy:53)
+</failure>
+  </testcase>
+  <testcase name="entityToDto" classname="CommentServiceTest" time="0.001"/>
+  <testcase name="dtoToEntity" classname="CommentServiceTest" time="0.001"/>
+  <testcase name="commitRepository" classname="CommentServiceTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

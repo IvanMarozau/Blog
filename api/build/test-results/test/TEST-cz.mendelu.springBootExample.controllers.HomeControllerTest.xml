@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="cz.mendelu.springBootExample.controllers.HomeControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-07-17T15:18:15" hostname="MacBook-Air-Ivan.local" time="0.014">
+  <properties/>
+  <testcase name="View returned for /" classname="cz.mendelu.springBootExample.controllers.HomeControllerTest" time="0.014"/>
+  <system-out><![CDATA[2022-07-17 17:18:15,207 [INFO ][Test worker     ][work.mock.web.MockServletContext] - Initializing Spring TestDispatcherServlet ''
+2022-07-17 17:18:15,207 [INFO ][Test worker     ][eb.servlet.TestDispatcherServlet] - Initializing Servlet ''
+2022-07-17 17:18:15,208 [INFO ][Test worker     ][eb.servlet.TestDispatcherServlet] - Completed initialization in 0 ms
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

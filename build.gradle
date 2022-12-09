@@ -1,0 +1,88 @@
+plugins {
+	id 'org.springframework.boot' version '2.6.4'
+	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+	id 'java'
+	id 'jacoco'
+
+}
+
+
+
+
+
+allprojects{
+	apply plugin: 'java'
+	apply plugin: 'jacoco'
+	group = 'cz.mendelu'
+	version = '0.0.1-SNAPSHOT'
+	sourceCompatibility = '11'
+
+
+	repositories {
+		mavenCentral()
+	}
+
+	test {
+		useJUnitPlatform()
+	}
+
+	bootJar { enabled = false}
+	jar { enabled = true}
+
+	jacoco {
+		toolVersion = '0.8.7'
+	}
+
+	jacocoTestReport {
+		dependsOn test
+		reports {
+			html.required = true
+			html.required = true
+			csv.required = false
+		}
+	}
+	def allTestCoverageFile = "$buildDir/jacoco/all-test.exec" as Object
+
+	task jacocoMergeTest(type: JacocoMerge) {
+		destinationFile = file(allTestCoverageFile)
+		executionData = project.fileTree(dir: '.', include: '**/build/jacoco/test.exec')
+	}
+
+
+}
+subprojects {
+	dependencies {
+		implementation 'org.springframework.boot:spring-boot-configuration-processor:2.6.7'
+		implementation 'cn.featherfly.configuration:configuration-api:1.2.7'
+		implementation 'org.springframework:spring-context:5.3.19'
+		implementation 'org.springframework.boot:spring-boot-starter-web:2.6.7'
+		implementation 'junit:junit:4.13.2'
+		testImplementation 'org.springframework.boot:spring-boot-starter-test:2.6.6'
+		implementation 'org.testng:testng:7.5'
+		compileOnly 'org.projectlombok:lombok:1.18.24'
+		annotationProcessor 'org.projectlombok:lombok:1.18.24'
+		compileOnly 'org.projectlombok:lombok:1.18.22'
+		annotationProcessor 'org.projectlombok:lombok:1.18.22'
+		testImplementation group: 'org.spockframework', name: 'spock-core', version: '2.2-M1-groovy-4.0'
+
+
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

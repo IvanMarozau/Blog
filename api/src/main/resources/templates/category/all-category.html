@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th = "http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <title>blog</title>
+    <style>
+        *{margin: 0;}
+        body{
+            background-color: #FFF5E3;
+        }
+        nav ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            border: 2px solid black;
+        }
+        nav a{
+            text-decoration: none;
+            background-color: #e0cfb1;
+            display: block;
+            padding: 15px;
+            text-align: center;
+            color: black;
+            font-weight:bold;
+            font-family: 'Courier New', Courier, monospace;
+
+        }
+        nav li{
+            flex: 1;
+        }
+        nav a:hover{
+            background-color:#fff
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+<nav>
+    <ul>
+        <li><a href="/">Home Page</a></li>
+        <li><a href="/category/info">Сategory</a></li>
+    </ul>
+</nav>
+<a href="/category/info/add" role="button">add category</a>
+<table class="table">
+<thead>
+<tr>
+    <th scope="col">Name Category</th>
+</tr>
+</thead>
+<tbody>
+<tr th:each="category : ${category}">
+    <td th:text="${category.getName()}"> </td>
+    <td>
+        <a th:href="@{/article/{categoryId}(categoryId=${category.getId()})}"
+           role="button">Articles</a>
+    </td>
+</tr>
+</tbody>
+</table>
+
+
+</body>
+</html>

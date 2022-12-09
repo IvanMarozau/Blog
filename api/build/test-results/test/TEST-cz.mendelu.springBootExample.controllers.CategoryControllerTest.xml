@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="cz.mendelu.springBootExample.controllers.CategoryControllerTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-07-17T15:18:14" hostname="MacBook-Air-Ivan.local" time="0.249">
+  <properties/>
+  <testcase name="View returned for /category/info" classname="cz.mendelu.springBootExample.controllers.CategoryControllerTest" time="0.143"/>
+  <testcase name="Method findAll is used in /category/info" classname="cz.mendelu.springBootExample.controllers.CategoryControllerTest" time="0.02"/>
+  <testcase name="View returned for /category/info/add" classname="cz.mendelu.springBootExample.controllers.CategoryControllerTest" time="0.043"/>
+  <testcase name="Method save is used in /category/info/add" classname="cz.mendelu.springBootExample.controllers.CategoryControllerTest" time="0.024"/>
+  <testcase name="categoryService" classname="cz.mendelu.springBootExample.controllers.CategoryControllerTest" time="0.018"/>
+  <system-out><![CDATA[2022-07-17 17:18:14,856 [INFO ][Test worker     ][work.mock.web.MockServletContext] - Initializing Spring TestDispatcherServlet ''
+2022-07-17 17:18:14,856 [INFO ][Test worker     ][eb.servlet.TestDispatcherServlet] - Initializing Servlet ''
+2022-07-17 17:18:14,857 [INFO ][Test worker     ][eb.servlet.TestDispatcherServlet] - Completed initialization in 0 ms
+2022-07-17 17:18:14,874 [INFO ][Test worker     ][work.mock.web.MockServletContext] - Initializing Spring TestDispatcherServlet ''
+2022-07-17 17:18:14,874 [INFO ][Test worker     ][eb.servlet.TestDispatcherServlet] - Initializing Servlet ''
+2022-07-17 17:18:14,875 [INFO ][Test worker     ][eb.servlet.TestDispatcherServlet] - Completed initialization in 0 ms
+2022-07-17 17:18:14,895 [INFO ][Test worker     ][work.mock.web.MockServletContext] - Initializing Spring TestDispatcherServlet ''
+2022-07-17 17:18:14,895 [INFO ][Test worker     ][eb.servlet.TestDispatcherServlet] - Initializing Servlet ''
+2022-07-17 17:18:14,896 [INFO ][Test worker     ][eb.servlet.TestDispatcherServlet] - Completed initialization in 0 ms
+2022-07-17 17:18:14,915 [INFO ][Test worker     ][work.mock.web.MockServletContext] - Initializing Spring TestDispatcherServlet ''
+2022-07-17 17:18:14,915 [INFO ][Test worker     ][eb.servlet.TestDispatcherServlet] - Initializing Servlet ''
+2022-07-17 17:18:14,916 [INFO ][Test worker     ][eb.servlet.TestDispatcherServlet] - Completed initialization in 0 ms
+2022-07-17 17:18:14,931 [INFO ][Test worker     ][work.mock.web.MockServletContext] - Initializing Spring TestDispatcherServlet ''
+2022-07-17 17:18:14,931 [INFO ][Test worker     ][eb.servlet.TestDispatcherServlet] - Initializing Servlet ''
+2022-07-17 17:18:14,932 [INFO ][Test worker     ][eb.servlet.TestDispatcherServlet] - Completed initialization in 1 ms
+2022-07-17 17:18:14,961 [INFO ][Test worker     ][work.mock.web.MockServletContext] - Initializing Spring TestDispatcherServlet ''
+2022-07-17 17:18:14,962 [INFO ][Test worker     ][eb.servlet.TestDispatcherServlet] - Initializing Servlet ''
+2022-07-17 17:18:14,963 [INFO ][Test worker     ][eb.servlet.TestDispatcherServlet] - Completed initialization in 1 ms
+2022-07-17 17:18:14,982 [INFO ][Test worker     ][work.mock.web.MockServletContext] - Initializing Spring TestDispatcherServlet ''
+2022-07-17 17:18:14,983 [INFO ][Test worker     ][eb.servlet.TestDispatcherServlet] - Initializing Servlet ''
+2022-07-17 17:18:14,984 [INFO ][Test worker     ][eb.servlet.TestDispatcherServlet] - Completed initialization in 1 ms
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

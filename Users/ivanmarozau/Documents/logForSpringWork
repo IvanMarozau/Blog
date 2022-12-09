@@ -1,0 +1,285 @@
+2022-07-17 16:37:39,346 [INFO ][ckground-preinit][.validator.internal.util.Version] - HV000001: Hibernate Validator 6.2.2.Final
+2022-07-17 16:37:39,358 [INFO ][main            ][ingBootExample.SpringBootExample] - Starting SpringBootExample using Java 11.0.10 on MacBook-Air-Ivan.local with PID 67063 (/Users/ivanmarozau/Documents/springBootExample/api/build/classes/java/main started by ivanmarozau in /Users/ivanmarozau/Documents/springBootExample)
+2022-07-17 16:37:39,358 [INFO ][main            ][ingBootExample.SpringBootExample] - Starting SpringBootExample using Java 11.0.10 on MacBook-Air-Ivan.local with PID 67063 (/Users/ivanmarozau/Documents/springBootExample/api/build/classes/java/main started by ivanmarozau in /Users/ivanmarozau/Documents/springBootExample)
+2022-07-17 16:37:39,362 [DEBUG][main            ][ingBootExample.SpringBootExample] - Running with Spring Boot v2.6.4, Spring v5.3.19
+2022-07-17 16:37:39,362 [DEBUG][main            ][ingBootExample.SpringBootExample] - Running with Spring Boot v2.6.4, Spring v5.3.19
+2022-07-17 16:37:39,363 [INFO ][main            ][ingBootExample.SpringBootExample] - No active profile set, falling back to 1 default profile: "default"
+2022-07-17 16:37:39,363 [INFO ][main            ][ingBootExample.SpringBootExample] - No active profile set, falling back to 1 default profile: "default"
+2022-07-17 16:37:40,447 [INFO ][main            ][.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-17 16:37:40,530 [INFO ][main            ][.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 67 ms. Found 4 JPA repository interfaces.
+2022-07-17 16:37:41,251 [INFO ][main            ][.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 8081 (http)
+2022-07-17 16:37:41,265 [INFO ][main            ][.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8081"]
+2022-07-17 16:37:41,265 [INFO ][main            ][he.catalina.core.StandardService] - Starting service [Tomcat]
+2022-07-17 16:37:41,265 [INFO ][main            ][che.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-07-17 16:37:41,413 [INFO ][main            ][nerBase.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2022-07-17 16:37:41,414 [INFO ][main            ][rvletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1972 ms
+2022-07-17 16:37:41,452 [INFO ][main            ][m.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Starting...
+2022-07-17 16:37:41,703 [INFO ][main            ][m.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Start completed.
+2022-07-17 16:37:41,728 [INFO ][main            ][re.h2.H2ConsoleAutoConfiguration] - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-07-17 16:37:42,031 [INFO ][main            ][              liquibase.database] - Set default schema name to PUBLIC
+2022-07-17 16:37:42,273 [INFO ][main            ][           liquibase.lockservice] - Successfully acquired change log lock
+2022-07-17 16:37:42,711 [INFO ][main            ][             liquibase.changelog] - Creating database history table with name: PUBLIC.DATABASECHANGELOG
+2022-07-17 16:37:42,716 [INFO ][main            ][             liquibase.changelog] - Reading from PUBLIC.DATABASECHANGELOG
+2022-07-17 16:37:42,868 [INFO ][main            ][             liquibase.changelog] - Table person created
+2022-07-17 16:37:42,874 [INFO ][main            ][             liquibase.changelog] - Table category created
+2022-07-17 16:37:42,878 [INFO ][main            ][             liquibase.changelog] - Table article created
+2022-07-17 16:37:42,880 [INFO ][main            ][             liquibase.changelog] - Table comment created
+2022-07-17 16:37:42,881 [INFO ][main            ][             liquibase.changelog] - ChangeSet db/changelog/db.changelog-master.xml::db::IvanMarozau ran successfully in 25ms
+2022-07-17 16:37:42,895 [INFO ][main            ][           liquibase.lockservice] - Successfully released change log lock
+2022-07-17 16:37:42,997 [INFO ][main            ][nate.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-17 16:37:43,081 [INFO ][main            ][           org.hibernate.Version] - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-07-17 16:37:43,378 [INFO ][main            ][rnate.annotations.common.Version] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-17 16:37:43,583 [INFO ][main            ][   org.hibernate.dialect.Dialect] - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-07-17 16:37:44,598 [INFO ][main            ][rm.internal.JtaPlatformInitiator] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-17 16:37:44,611 [INFO ][main            ][ontainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-17 16:37:45,199 [WARN ][main            ][onfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-17 16:37:45,640 [INFO ][main            ][.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8081"]
+2022-07-17 16:37:45,665 [INFO ][main            ][.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 8081 (http) with context path ''
+2022-07-17 16:37:45,683 [INFO ][main            ][ingBootExample.SpringBootExample] - Started SpringBootExample in 7.117 seconds (JVM running for 9.068)
+2022-07-17 16:37:45,683 [INFO ][main            ][ingBootExample.SpringBootExample] - Started SpringBootExample in 7.117 seconds (JVM running for 9.068)
+2022-07-17 16:38:22,920 [INFO ][tionShutdownHook][ontainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-17 16:38:22,928 [INFO ][tionShutdownHook][m.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown initiated...
+2022-07-17 16:38:22,932 [INFO ][tionShutdownHook][m.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown completed.
+2022-07-17 16:38:28,828 [INFO ][ckground-preinit][.validator.internal.util.Version] - HV000001: Hibernate Validator 6.2.2.Final
+2022-07-17 16:38:28,829 [INFO ][main            ][ingBootExample.SpringBootExample] - Starting SpringBootExample using Java 11.0.10 on MacBook-Air-Ivan.local with PID 67077 (/Users/ivanmarozau/Documents/springBootExample/api/build/classes/java/main started by ivanmarozau in /Users/ivanmarozau/Documents/springBootExample)
+2022-07-17 16:38:28,829 [INFO ][main            ][ingBootExample.SpringBootExample] - Starting SpringBootExample using Java 11.0.10 on MacBook-Air-Ivan.local with PID 67077 (/Users/ivanmarozau/Documents/springBootExample/api/build/classes/java/main started by ivanmarozau in /Users/ivanmarozau/Documents/springBootExample)
+2022-07-17 16:38:28,832 [DEBUG][main            ][ingBootExample.SpringBootExample] - Running with Spring Boot v2.6.4, Spring v5.3.19
+2022-07-17 16:38:28,832 [DEBUG][main            ][ingBootExample.SpringBootExample] - Running with Spring Boot v2.6.4, Spring v5.3.19
+2022-07-17 16:38:28,833 [INFO ][main            ][ingBootExample.SpringBootExample] - No active profile set, falling back to 1 default profile: "default"
+2022-07-17 16:38:28,833 [INFO ][main            ][ingBootExample.SpringBootExample] - No active profile set, falling back to 1 default profile: "default"
+2022-07-17 16:38:29,879 [INFO ][main            ][.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-17 16:38:29,951 [INFO ][main            ][.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 57 ms. Found 4 JPA repository interfaces.
+2022-07-17 16:38:30,672 [INFO ][main            ][.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 8081 (http)
+2022-07-17 16:38:30,683 [INFO ][main            ][.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8081"]
+2022-07-17 16:38:30,684 [INFO ][main            ][he.catalina.core.StandardService] - Starting service [Tomcat]
+2022-07-17 16:38:30,684 [INFO ][main            ][che.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-07-17 16:38:30,813 [INFO ][main            ][nerBase.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2022-07-17 16:38:30,813 [INFO ][main            ][rvletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1932 ms
+2022-07-17 16:38:30,845 [INFO ][main            ][m.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Starting...
+2022-07-17 16:38:31,020 [INFO ][main            ][m.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Start completed.
+2022-07-17 16:38:31,034 [INFO ][main            ][re.h2.H2ConsoleAutoConfiguration] - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-07-17 16:38:31,301 [INFO ][main            ][              liquibase.database] - Set default schema name to PUBLIC
+2022-07-17 16:38:31,466 [INFO ][main            ][           liquibase.lockservice] - Successfully acquired change log lock
+2022-07-17 16:38:31,786 [INFO ][main            ][             liquibase.changelog] - Creating database history table with name: PUBLIC.DATABASECHANGELOG
+2022-07-17 16:38:31,789 [INFO ][main            ][             liquibase.changelog] - Reading from PUBLIC.DATABASECHANGELOG
+2022-07-17 16:38:31,878 [INFO ][main            ][             liquibase.changelog] - Table person created
+2022-07-17 16:38:31,882 [INFO ][main            ][             liquibase.changelog] - Table category created
+2022-07-17 16:38:31,885 [INFO ][main            ][             liquibase.changelog] - Table article created
+2022-07-17 16:38:31,888 [INFO ][main            ][             liquibase.changelog] - Table comment created
+2022-07-17 16:38:31,888 [INFO ][main            ][             liquibase.changelog] - ChangeSet db/changelog/db.changelog-master.xml::db::IvanMarozau ran successfully in 18ms
+2022-07-17 16:38:31,896 [INFO ][main            ][           liquibase.lockservice] - Successfully released change log lock
+2022-07-17 16:38:31,966 [INFO ][main            ][nate.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-17 16:38:32,034 [INFO ][main            ][           org.hibernate.Version] - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-07-17 16:38:32,236 [INFO ][main            ][rnate.annotations.common.Version] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-17 16:38:32,355 [INFO ][main            ][   org.hibernate.dialect.Dialect] - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-07-17 16:38:33,104 [INFO ][main            ][rm.internal.JtaPlatformInitiator] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-17 16:38:33,113 [INFO ][main            ][ontainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-17 16:38:33,687 [WARN ][main            ][onfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-17 16:38:34,092 [INFO ][main            ][.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8081"]
+2022-07-17 16:38:34,116 [INFO ][main            ][.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 8081 (http) with context path ''
+2022-07-17 16:38:34,130 [INFO ][main            ][ingBootExample.SpringBootExample] - Started SpringBootExample in 5.936 seconds (JVM running for 7.197)
+2022-07-17 16:38:34,130 [INFO ][main            ][ingBootExample.SpringBootExample] - Started SpringBootExample in 5.936 seconds (JVM running for 7.197)
+2022-07-17 16:38:39,534 [INFO ][-nio-8081-exec-1][nerBase.[Tomcat].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-17 16:38:39,535 [INFO ][-nio-8081-exec-1][rk.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2022-07-17 16:38:39,539 [INFO ][-nio-8081-exec-1][rk.web.servlet.DispatcherServlet] - Completed initialization in 4 ms
+2022-07-17 16:39:15,782 [ERROR][-nio-8081-exec-2][calhost].[/].[dispatcherServlet]] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalArgumentException: article date before current date] with root cause
+java.lang.IllegalArgumentException: article date before current date
+	at cz.mendelu.springBootExample.services.ArticleService.save(ArticleService.java:62)
+	at cz.mendelu.springBootExample.controllers.ArticleController.add(ArticleController.java:47)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:359)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1735)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-07-17 16:39:53,686 [INFO ][tionShutdownHook][ontainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-17 16:39:53,690 [INFO ][tionShutdownHook][m.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown initiated...
+2022-07-17 16:39:53,696 [INFO ][tionShutdownHook][m.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown completed.
+2022-07-17 16:42:45,451 [INFO ][ckground-preinit][.validator.internal.util.Version] - HV000001: Hibernate Validator 6.2.2.Final
+2022-07-17 16:42:45,455 [INFO ][main            ][ingBootExample.SpringBootExample] - Starting SpringBootExample using Java 11.0.10 on MacBook-Air-Ivan.local with PID 67108 (/Users/ivanmarozau/Documents/springBootExample/api/build/classes/java/main started by ivanmarozau in /Users/ivanmarozau/Documents/springBootExample)
+2022-07-17 16:42:45,455 [INFO ][main            ][ingBootExample.SpringBootExample] - Starting SpringBootExample using Java 11.0.10 on MacBook-Air-Ivan.local with PID 67108 (/Users/ivanmarozau/Documents/springBootExample/api/build/classes/java/main started by ivanmarozau in /Users/ivanmarozau/Documents/springBootExample)
+2022-07-17 16:42:45,459 [DEBUG][main            ][ingBootExample.SpringBootExample] - Running with Spring Boot v2.6.4, Spring v5.3.19
+2022-07-17 16:42:45,459 [DEBUG][main            ][ingBootExample.SpringBootExample] - Running with Spring Boot v2.6.4, Spring v5.3.19
+2022-07-17 16:42:45,460 [INFO ][main            ][ingBootExample.SpringBootExample] - No active profile set, falling back to 1 default profile: "default"
+2022-07-17 16:42:45,460 [INFO ][main            ][ingBootExample.SpringBootExample] - No active profile set, falling back to 1 default profile: "default"
+2022-07-17 16:42:46,439 [INFO ][main            ][.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-17 16:42:46,511 [INFO ][main            ][.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 50 ms. Found 4 JPA repository interfaces.
+2022-07-17 16:42:47,120 [INFO ][main            ][.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 8081 (http)
+2022-07-17 16:42:47,132 [INFO ][main            ][.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8081"]
+2022-07-17 16:42:47,132 [INFO ][main            ][he.catalina.core.StandardService] - Starting service [Tomcat]
+2022-07-17 16:42:47,133 [INFO ][main            ][che.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-07-17 16:42:47,259 [INFO ][main            ][nerBase.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2022-07-17 16:42:47,260 [INFO ][main            ][rvletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1738 ms
+2022-07-17 16:42:47,286 [INFO ][main            ][m.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Starting...
+2022-07-17 16:42:47,463 [INFO ][main            ][m.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Start completed.
+2022-07-17 16:42:47,479 [INFO ][main            ][re.h2.H2ConsoleAutoConfiguration] - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-07-17 16:42:47,746 [INFO ][main            ][              liquibase.database] - Set default schema name to PUBLIC
+2022-07-17 16:42:47,921 [INFO ][main            ][           liquibase.lockservice] - Successfully acquired change log lock
+2022-07-17 16:42:48,245 [INFO ][main            ][             liquibase.changelog] - Creating database history table with name: PUBLIC.DATABASECHANGELOG
+2022-07-17 16:42:48,248 [INFO ][main            ][             liquibase.changelog] - Reading from PUBLIC.DATABASECHANGELOG
+2022-07-17 16:42:48,349 [INFO ][main            ][             liquibase.changelog] - Table person created
+2022-07-17 16:42:48,354 [INFO ][main            ][             liquibase.changelog] - Table category created
+2022-07-17 16:42:48,356 [INFO ][main            ][             liquibase.changelog] - Table article created
+2022-07-17 16:42:48,358 [INFO ][main            ][             liquibase.changelog] - Table comment created
+2022-07-17 16:42:48,359 [INFO ][main            ][             liquibase.changelog] - ChangeSet db/changelog/db.changelog-master.xml::db::IvanMarozau ran successfully in 17ms
+2022-07-17 16:42:48,367 [INFO ][main            ][           liquibase.lockservice] - Successfully released change log lock
+2022-07-17 16:42:48,440 [INFO ][main            ][nate.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-17 16:42:48,510 [INFO ][main            ][           org.hibernate.Version] - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-07-17 16:42:48,713 [INFO ][main            ][rnate.annotations.common.Version] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-17 16:42:48,845 [INFO ][main            ][   org.hibernate.dialect.Dialect] - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-07-17 16:42:49,637 [INFO ][main            ][rm.internal.JtaPlatformInitiator] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-17 16:42:49,646 [INFO ][main            ][ontainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-17 16:42:50,199 [WARN ][main            ][onfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-17 16:42:50,613 [INFO ][main            ][.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8081"]
+2022-07-17 16:42:50,636 [INFO ][main            ][.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 8081 (http) with context path ''
+2022-07-17 16:42:50,651 [INFO ][main            ][ingBootExample.SpringBootExample] - Started SpringBootExample in 5.755 seconds (JVM running for 7.136)
+2022-07-17 16:42:50,651 [INFO ][main            ][ingBootExample.SpringBootExample] - Started SpringBootExample in 5.755 seconds (JVM running for 7.136)
+2022-07-17 16:43:05,099 [INFO ][-nio-8081-exec-1][nerBase.[Tomcat].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-17 16:43:05,099 [INFO ][-nio-8081-exec-1][rk.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2022-07-17 16:43:05,101 [INFO ][-nio-8081-exec-1][rk.web.servlet.DispatcherServlet] - Completed initialization in 2 ms
+2022-07-17 16:43:49,996 [INFO ][tionShutdownHook][ontainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-17 16:43:50,000 [INFO ][tionShutdownHook][m.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown initiated...
+2022-07-17 16:43:50,004 [INFO ][tionShutdownHook][m.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown completed.
+2022-07-17 16:43:56,660 [INFO ][main            ][ingBootExample.SpringBootExample] - Starting SpringBootExample using Java 11.0.10 on MacBook-Air-Ivan.local with PID 67121 (/Users/ivanmarozau/Documents/springBootExample/api/build/classes/java/main started by ivanmarozau in /Users/ivanmarozau/Documents/springBootExample)
+2022-07-17 16:43:56,660 [INFO ][main            ][ingBootExample.SpringBootExample] - Starting SpringBootExample using Java 11.0.10 on MacBook-Air-Ivan.local with PID 67121 (/Users/ivanmarozau/Documents/springBootExample/api/build/classes/java/main started by ivanmarozau in /Users/ivanmarozau/Documents/springBootExample)
+2022-07-17 16:43:56,661 [INFO ][ckground-preinit][.validator.internal.util.Version] - HV000001: Hibernate Validator 6.2.2.Final
+2022-07-17 16:43:56,664 [DEBUG][main            ][ingBootExample.SpringBootExample] - Running with Spring Boot v2.6.4, Spring v5.3.19
+2022-07-17 16:43:56,664 [DEBUG][main            ][ingBootExample.SpringBootExample] - Running with Spring Boot v2.6.4, Spring v5.3.19
+2022-07-17 16:43:56,665 [INFO ][main            ][ingBootExample.SpringBootExample] - No active profile set, falling back to 1 default profile: "default"
+2022-07-17 16:43:56,665 [INFO ][main            ][ingBootExample.SpringBootExample] - No active profile set, falling back to 1 default profile: "default"
+2022-07-17 16:43:57,555 [INFO ][main            ][.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-17 16:43:57,621 [INFO ][main            ][.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 53 ms. Found 4 JPA repository interfaces.
+2022-07-17 16:43:58,186 [INFO ][main            ][.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 8081 (http)
+2022-07-17 16:43:58,196 [INFO ][main            ][.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8081"]
+2022-07-17 16:43:58,196 [INFO ][main            ][he.catalina.core.StandardService] - Starting service [Tomcat]
+2022-07-17 16:43:58,196 [INFO ][main            ][che.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-07-17 16:43:58,319 [INFO ][main            ][nerBase.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2022-07-17 16:43:58,320 [INFO ][main            ][rvletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1596 ms
+2022-07-17 16:43:58,352 [INFO ][main            ][m.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Starting...
+2022-07-17 16:43:58,520 [INFO ][main            ][m.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Start completed.
+2022-07-17 16:43:58,535 [INFO ][main            ][re.h2.H2ConsoleAutoConfiguration] - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-07-17 16:43:58,798 [INFO ][main            ][              liquibase.database] - Set default schema name to PUBLIC
+2022-07-17 16:43:58,953 [INFO ][main            ][           liquibase.lockservice] - Successfully acquired change log lock
+2022-07-17 16:43:59,257 [INFO ][main            ][             liquibase.changelog] - Creating database history table with name: PUBLIC.DATABASECHANGELOG
+2022-07-17 16:43:59,262 [INFO ][main            ][             liquibase.changelog] - Reading from PUBLIC.DATABASECHANGELOG
+2022-07-17 16:43:59,360 [INFO ][main            ][             liquibase.changelog] - Table person created
+2022-07-17 16:43:59,364 [INFO ][main            ][             liquibase.changelog] - Table category created
+2022-07-17 16:43:59,367 [INFO ][main            ][             liquibase.changelog] - Table article created
+2022-07-17 16:43:59,369 [INFO ][main            ][             liquibase.changelog] - Table comment created
+2022-07-17 16:43:59,369 [INFO ][main            ][             liquibase.changelog] - ChangeSet db/changelog/db.changelog-master.xml::db::IvanMarozau ran successfully in 17ms
+2022-07-17 16:43:59,378 [INFO ][main            ][           liquibase.lockservice] - Successfully released change log lock
+2022-07-17 16:43:59,452 [INFO ][main            ][nate.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-17 16:43:59,516 [INFO ][main            ][           org.hibernate.Version] - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-07-17 16:43:59,715 [INFO ][main            ][rnate.annotations.common.Version] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-17 16:43:59,831 [INFO ][main            ][   org.hibernate.dialect.Dialect] - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-07-17 16:44:00,560 [INFO ][main            ][rm.internal.JtaPlatformInitiator] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-17 16:44:00,569 [INFO ][main            ][ontainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-17 16:44:01,078 [WARN ][main            ][onfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-17 16:44:01,460 [INFO ][main            ][.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8081"]
+2022-07-17 16:44:01,481 [INFO ][main            ][.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 8081 (http) with context path ''
+2022-07-17 16:44:01,494 [INFO ][main            ][ingBootExample.SpringBootExample] - Started SpringBootExample in 5.336 seconds (JVM running for 6.659)
+2022-07-17 16:44:01,494 [INFO ][main            ][ingBootExample.SpringBootExample] - Started SpringBootExample in 5.336 seconds (JVM running for 6.659)
+2022-07-17 16:44:10,660 [INFO ][-nio-8081-exec-1][nerBase.[Tomcat].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-17 16:44:10,662 [INFO ][-nio-8081-exec-1][rk.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2022-07-17 16:44:10,670 [INFO ][-nio-8081-exec-1][rk.web.servlet.DispatcherServlet] - Completed initialization in 8 ms
+2022-07-17 16:44:45,628 [ERROR][-nio-8081-exec-4][calhost].[/].[dispatcherServlet]] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalArgumentException: More then 500 comments] with root cause
+java.lang.IllegalArgumentException: More then 500 comments
+	at cz.mendelu.springBootExample.services.CommentService.save(CommentService.java:47)
+	at cz.mendelu.springBootExample.controllers.CommentController.add(CommentController.java:45)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:359)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1735)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-07-17 16:45:14,709 [INFO ][tionShutdownHook][ontainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-17 16:45:14,713 [INFO ][tionShutdownHook][m.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown initiated...
+2022-07-17 16:45:14,716 [INFO ][tionShutdownHook][m.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown completed.

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="cz.mendelu.springBootExample.controllers.ArticleControllerTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-07-17T15:18:11" hostname="MacBook-Air-Ivan.local" time="3.239">
+  <properties/>
+  <testcase name="View returned for /article/{categoryId}" classname="cz.mendelu.springBootExample.controllers.ArticleControllerTest" time="3.032"/>
+  <testcase name="Method findAll is used in /article/{categoryId}" classname="cz.mendelu.springBootExample.controllers.ArticleControllerTest" time="0.035"/>
+  <testcase name="View returned for /article/{categoryId}/add" classname="cz.mendelu.springBootExample.controllers.ArticleControllerTest" time="0.076"/>
+  <testcase name="Method save is used in /article/{categoryId}/add" classname="cz.mendelu.springBootExample.controllers.ArticleControllerTest" time="0.074"/>
+  <testcase name="articleService" classname="cz.mendelu.springBootExample.controllers.ArticleControllerTest" time="0.021"/>
+  <system-out><![CDATA[17:18:12,518 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+17:18:12,518 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/Users/ivanmarozau/Documents/springBootExample/api/build/resources/main/logback.xml]
+17:18:12,624 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+17:18:12,638 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+17:18:12,644 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [CONSOLE]
+17:18:12,696 |-WARN in ch.qos.logback.core.ConsoleAppender[CONSOLE] - This appender no longer admits a layout as a sub-component, set an encoder instead.
+17:18:12,696 |-WARN in ch.qos.logback.core.ConsoleAppender[CONSOLE] - To ensure compatibility, wrapping your layout in LayoutWrappingEncoder.
+17:18:12,696 |-WARN in ch.qos.logback.core.ConsoleAppender[CONSOLE] - See also http://logback.qos.ch/codes.html#layoutInsteadOfEncoder for details
+17:18:12,698 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+17:18:12,705 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [FILE]
+17:18:12,711 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@729248981 - setting totalSizeCap to 50 MB
+17:18:12,716 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@729248981 - No compression will be used
+17:18:12,719 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@729248981 - Will use the pattern logFile.%d{yyyy-MM-dd}.log for the active file
+17:18:12,725 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - The date pattern is 'yyyy-MM-dd' from file name pattern 'logFile.%d{yyyy-MM-dd}.log'.
+17:18:12,725 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Roll-over at midnight.
+17:18:12,743 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Setting initial period to Sun Jul 17 17:12:31 CEST 2022
+17:18:12,748 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+17:18:12,752 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - Active log file name: Users/ivanmarozau/Documents/logForSpringWork/
+17:18:12,753 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - File property is set to [Users/ivanmarozau/Documents/logForSpringWork/]
+17:18:12,754 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+17:18:12,754 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [CONSOLE] to Logger[ROOT]
+17:18:12,756 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [FILE] to Logger[ROOT]
+17:18:12,756 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [cz.mendelu.springBootExample] to DEBUG
+17:18:12,757 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [CONSOLE] to Logger[cz.mendelu.springBootExample]
+17:18:12,757 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [FILE] to Logger[cz.mendelu.springBootExample]
+17:18:12,757 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+17:18:12,758 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@7d284f15 - Registering current configuration as safe fallback point
+
+2022-07-17 17:18:13,207 [INFO ][Test worker     ][.validator.internal.util.Version] - HV000001: Hibernate Validator 6.2.2.Final
+2022-07-17 17:18:14,275 [INFO ][Test worker     ][work.mock.web.MockServletContext] - Initializing Spring TestDispatcherServlet ''
+2022-07-17 17:18:14,276 [INFO ][Test worker     ][eb.servlet.TestDispatcherServlet] - Initializing Servlet ''
+2022-07-17 17:18:14,280 [INFO ][Test worker     ][eb.servlet.TestDispatcherServlet] - Completed initialization in 4 ms
+2022-07-17 17:18:14,301 [INFO ][Test worker     ][work.mock.web.MockServletContext] - Initializing Spring TestDispatcherServlet ''
+2022-07-17 17:18:14,301 [INFO ][Test worker     ][eb.servlet.TestDispatcherServlet] - Initializing Servlet ''
+2022-07-17 17:18:14,302 [INFO ][Test worker     ][eb.servlet.TestDispatcherServlet] - Completed initialization in 0 ms
+2022-07-17 17:18:14,533 [INFO ][Test worker     ][work.mock.web.MockServletContext] - Initializing Spring TestDispatcherServlet ''
+2022-07-17 17:18:14,534 [INFO ][Test worker     ][eb.servlet.TestDispatcherServlet] - Initializing Servlet ''
+2022-07-17 17:18:14,535 [INFO ][Test worker     ][eb.servlet.TestDispatcherServlet] - Completed initialization in 1 ms
+2022-07-17 17:18:14,567 [INFO ][Test worker     ][work.mock.web.MockServletContext] - Initializing Spring TestDispatcherServlet ''
+2022-07-17 17:18:14,567 [INFO ][Test worker     ][eb.servlet.TestDispatcherServlet] - Initializing Servlet ''
+2022-07-17 17:18:14,568 [INFO ][Test worker     ][eb.servlet.TestDispatcherServlet] - Completed initialization in 0 ms
+2022-07-17 17:18:14,586 [INFO ][Test worker     ][work.mock.web.MockServletContext] - Initializing Spring TestDispatcherServlet ''
+2022-07-17 17:18:14,586 [INFO ][Test worker     ][eb.servlet.TestDispatcherServlet] - Initializing Servlet ''
+2022-07-17 17:18:14,587 [INFO ][Test worker     ][eb.servlet.TestDispatcherServlet] - Completed initialization in 1 ms
+2022-07-17 17:18:14,642 [INFO ][Test worker     ][work.mock.web.MockServletContext] - Initializing Spring TestDispatcherServlet ''
+2022-07-17 17:18:14,642 [INFO ][Test worker     ][eb.servlet.TestDispatcherServlet] - Initializing Servlet ''
+2022-07-17 17:18:14,644 [INFO ][Test worker     ][eb.servlet.TestDispatcherServlet] - Completed initialization in 1 ms
+2022-07-17 17:18:14,717 [INFO ][Test worker     ][work.mock.web.MockServletContext] - Initializing Spring TestDispatcherServlet ''
+2022-07-17 17:18:14,717 [INFO ][Test worker     ][eb.servlet.TestDispatcherServlet] - Initializing Servlet ''
+2022-07-17 17:18:14,718 [INFO ][Test worker     ][eb.servlet.TestDispatcherServlet] - Completed initialization in 0 ms
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

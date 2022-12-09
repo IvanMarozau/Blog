@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PersonServiceTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-07-17T15:18:18" hostname="MacBook-Air-Ivan.local" time="0.044">
+  <properties/>
+  <testcase name="FindByPersonId" classname="PersonServiceTest" time="0.037"/>
+  <testcase name="DeletePersonById" classname="PersonServiceTest" time="0.002"/>
+  <testcase name="SavePerson" classname="PersonServiceTest" time="0.002"/>
+  <testcase name="entityToDto" classname="PersonServiceTest" time="0.001"/>
+  <testcase name="dtoToEntity" classname="PersonServiceTest" time="0.001"/>
+  <testcase name="personRepository" classname="PersonServiceTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CategoryServiceTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2022-07-17T15:18:18" hostname="MacBook-Air-Ivan.local" time="0.039">
+  <properties/>
+  <testcase name="FindAll" classname="CategoryServiceTest" time="0.022"/>
+  <testcase name="FindByCategoryId" classname="CategoryServiceTest" time="0.009"/>
+  <testcase name="DeleteCategoryById" classname="CategoryServiceTest" time="0.002"/>
+  <testcase name="SaveCategory" classname="CategoryServiceTest" time="0.003"/>
+  <testcase name="entityToDto" classname="CategoryServiceTest" time="0.001"/>
+  <testcase name="dtoToEntity" classname="CategoryServiceTest" time="0.001"/>
+  <testcase name="categoryRepository" classname="CategoryServiceTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
